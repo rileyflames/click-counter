@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri, sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .card{
+    min-width: 500px;
+    background: whitesmoke;
+    padding: 2rem;
+    box-shadow: 0 5px 44px 0 darkgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.container .card h1{
+    text-align: center;
+    color: darkgray;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+.container .card .display{
+    display: flex;
+    column-gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    margin: 2rem;
+}
+.container .card .display .clicks, .resets{
+    font-size: 25px;
+    color: #353336;
+    margin-bottom: 2rem;
+}
+#button{
+    width: 150px;
+    padding: 0.99rem;
+    border-radius: 20px;
+    border: none;
+    background: #762782;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #f6f0f7;
+}
+#button:hover, #reset:hover{
+    cursor: pointer;
+    background: maroon;
+    color: whitesmoke;
+}
+#reset{
+    width: 150px;
+    padding: 0.99rem;
+    border-radius: 20px;
+    border: none;
+    background: #274a82;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: goldenrod;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .card .display .clicks, .resets{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    text-align: center;
+}
+.container .card .display .clicks p, .resets p{
+    text-transform: uppercase;
+
+}
+#restart{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    box-shadow: 0 5px 44px 0 darkgray;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    color: darkgray;
+    position: absolute;
+    top: 85%;
+    left: 38%;
+}
+#restart:hover{
+    cursor: pointer;
+    background: yellow;
+    color: maroon;
+}
